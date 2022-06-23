@@ -1,0 +1,5 @@
+Templates(also called as Generic) are divided into 2 groups:
+1. Class Template 
+2. Function Template
+Advantage of templates:
+1. program size is reduced
