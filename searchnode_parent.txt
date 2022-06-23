@@ -1,0 +1,81 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+typedef struct tree{
+    struct tree* left;
+    int info;
+    struct tree* right;
+}treetype;
+treetype* create(int num){
+    treetype *temp= (treetype*)malloc(sizeof(treetype));
+    temp->left=NULL;
+    temp->info=num;
+    temp->right=NULL;
+    return temp;
+}
+void insert(treetype** root, treetype* temp){
+    if(*root==NULL)
+        *root=temp;
+    else if((*root)->info>temp->info)
+        insert(&(*root)->left,temp);
+    else if((*root)->info<temp->info)
+        insert(&(*root)->right,temp);
+    else{
+        printf("\nNODE CANNOT BE INSERTED!!!");
+        return;
+    }
+}
+void search(treetype* root, int num, treetype** child, treetype** parent){
+    if((root->right)->info==num){
+        *child=root->right;
+        *parent=root;
+    }
+    else if((root->left)->info==num){
+        *child=root->right;
+        *parent=root;
+    }
+    else if((root->right)->info>num)
+        search(root->left,num,child,parent);
+    else
+        search(root->right,num,child,parent);
+}
+int main(){
+    int choice,val;
+    char ch,n;
+    treetype *root= NULL,*temp;
+    treetype *child=NULL,*parent=NULL;
+    do{
+      printf("\n1. Insert a new node.");
+      printf("\n2. Search a node and find a node and its parent node.");
+      printf("\n3. Exit.");
+      printf("\nEnter your choice :");
+      scanf("%d",&choice);
+      switch(choice){
+        case 1:
+            do{
+                int num;
+                printf("\nEnter the element to be inserted: ");
+                scanf("%d",&num);
+                temp=create(num);
+                insert(&root,temp);
+                printf("\nDo you wish to insert more nodes? (y/n) : ");
+                ch=getche();
+            }while(ch=='y'||ch=='Y');
+            break;
+         case 2:
+            printf("\nEnter the node to be searched: ");
+            scanf("%d",&val);
+            search(root,val,&child,&parent);
+            printf("\nParent node: %d",parent->info);
+            printf("\nChild node: %d",child->info);
+            break;
+         case 3:
+            exit(0);
+        default:
+            printf("\n Wrong choice entered!!");
+      }
+      printf("\nDo you wish to repeat? (y/n) : ");
+      n=getche();
+    }while(n=='y'||n=='Y');
+    return 0;
+}
