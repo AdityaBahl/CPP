@@ -1,5 +1,5 @@
 //template 4
-//imp
+//import
 #include <iostream>
 using namespace std;
 template <class t>
