@@ -1,4 +1,4 @@
-// this is an alternate
+// this is an alternate version
 #include <iostream>
 using namespace std;
 int main()
