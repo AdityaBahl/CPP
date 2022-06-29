@@ -1,4 +1,4 @@
-// this is an alternate version
+// this is an alternate version of
 #include <iostream>
 using namespace std;
 int main()
