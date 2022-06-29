@@ -1,4 +1,4 @@
-// this is an alternate version of numbered
+// this is an alternate version of numbered triangle
 #include <iostream>
 using namespace std;
 int main()
