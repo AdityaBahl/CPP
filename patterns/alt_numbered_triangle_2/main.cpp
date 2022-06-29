@@ -1,4 +1,4 @@
-// this is an alternate version of
+// this is an alternate version of numbered
 #include <iostream>
 using namespace std;
 int main()
