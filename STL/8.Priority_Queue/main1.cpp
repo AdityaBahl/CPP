@@ -24,4 +24,5 @@ int main()
     }
     cout << "\nThe Priority Queue is: \n";
     showpq(pq);
+    cout << "The vector is in non decreasing order now!";
 }
