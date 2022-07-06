@@ -1,4 +1,4 @@
-// next greater element using sta
+// next greater element using stacks
 #include <bits/stdc++.h>
 #define fio                  \
     ios::sync_with_stdio(0); \
