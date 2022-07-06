@@ -1,4 +1,4 @@
-// next greater element
+// next greater element usi
 #include <bits/stdc++.h>
 #define fio                  \
     ios::sync_with_stdio(0); \
