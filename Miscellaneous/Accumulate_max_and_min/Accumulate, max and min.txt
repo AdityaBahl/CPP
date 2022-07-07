@@ -1,4 +1,4 @@
-//view it after
+//view it after copying 
 #include <bits/stdc++.h>
 using namespace std;
   
