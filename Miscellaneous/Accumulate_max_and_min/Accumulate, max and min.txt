@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+  
+int main()
+{
+    int a[] = { 1, 7, 2, 4, 8, 3 };
+    int l = sizeof(a) / sizeof(a[0]);
+    cout << "\nsum of array: "
+         << accumulate(a, a + l, 0);
+    cout << "\nMaximum element in array: "
+         << *max_element(a, a + l);
+    cout << "\nMinimum element in array: "
+         << *min_element(a, a + l);
+    return 0;
+}
