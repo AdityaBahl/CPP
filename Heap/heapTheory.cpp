@@ -1,4 +1,5 @@
 /*
+learnt From Love Babbar(https://www.youtube.com/watch?v=NKJnHewiGdc)
 Q. What is a Heap?
 Ans. It is a Complete Binary Tree(CBT) which comes in a heap order property.
     Now, a A complete binary tree is a special type of binary tree where all the levels of the tree are filled completely except
@@ -23,6 +24,6 @@ Q. Algorithm for insertion in a heap?
 Ans. Its as follows:
     1.Insert at the end of the heap
     2.Take it to its correct position
-      a. See whether the parent node is greater than the current node by formula (1)
+      a. See whether the parent node is greater than the current node in a loop by formula (3 or 4)
     3.
 */
