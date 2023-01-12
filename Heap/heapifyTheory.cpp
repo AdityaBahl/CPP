@@ -14,5 +14,10 @@ Ans. Heapify is the process of creating a heap data structure from a
     index is given by n/2 – 1.
 
 Q. Process of Heapify-ing?
-Ans.
+Ans. The steps are:
+    1. We need to convert non leaf nodes into heap.
+    2. Because Leaf Nodes are always in a heap format.
+    3. As seen above in the notes, leaf nodes are from n/2+1 to n
+    4. Hence, take nodes from 1 to n/2 and convert them into heap if
+       not already.
 */
