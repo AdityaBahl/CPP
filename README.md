@@ -37,17 +37,17 @@ Overall, C++ is a versatile and powerful language that is well-suited for a wide
 
 C++, like any programming language, has its own set of challenges and limitations. Some of the main challenges and limitations of C++ include:
 
-1. Complexity: C++ is a complex language, with a large number of features and libraries. This can make it difficult for new developers to learn, and it can also make it easy to introduce bugs or errors into code.
+1. **Complexity**: C++ is a complex language, with a large number of features and libraries. This can make it difficult for new developers to learn, and it can also make it easy to introduce bugs or errors into code.
 
-2. Memory management: C++ allows direct manipulation of memory, which can be both a strength and a weakness. While this allows for fine-grained control over system resources, it also means that developers are responsible for managing memory manually, which can lead to problems such as memory leaks and buffer overflows.
+2. **Memory management**: C++ allows direct manipulation of memory, which can be both a strength and a weakness. While this allows for fine-grained control over system resources, it also means that developers are responsible for managing memory manually, which can lead to problems such as memory leaks and buffer overflows.
 
-3. Compatibility issues: C++ is an evolving language, and new features and libraries are constantly being added. This can make it difficult to ensure that code remains compatible across different versions of the language.
+3. **Compatibility issues**: C++ is an evolving language, and new features and libraries are constantly being added. This can make it difficult to ensure that code remains compatible across different versions of the language.
 
-4. Lack of built-in support for concurrency: C++ does not have built-in support for concurrency, which makes it more difficult to write efficient multithreaded code.
+4. **Lack of built-in support for concurrency**: C++ does not have built-in support for concurrency, which makes it more difficult to write efficient multithreaded code.
 
-5. Lack of built-in support for garbage collection: C++ does not have built-in support for automatic memory management, which can lead to memory leaks and other memory management issues.
+5. **Lack of built-in support for garbage collection**: C++ does not have built-in support for automatic memory management, which can lead to memory leaks and other memory management issues.
 
-6. Lack of security features: C++ does not have built-in security features, which makes it more prone to security vulnerabilities like buffer overflows and other memory-related attacks.
+6. **Lack of security features**: C++ does not have built-in security features, which makes it more prone to security vulnerabilities like buffer overflows and other memory-related attacks.
 
 Overall, C++ is a powerful language but it requires a high level of expertise and experience to use it effectively. The lack of built-in security features and memory management make it more prone to errors, and compatibility issues can make it difficult to maintain code over time.
 
