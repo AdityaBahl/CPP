@@ -73,7 +73,7 @@ int main()
         heapify(arr, n, i);
     }
     cout << "printing array\n";
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         cout << arr[i] << " ";
     }
