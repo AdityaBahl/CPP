@@ -2,8 +2,8 @@
 
 ## Technologies Used
 
-1. **C++**
-2. **VS CODE**
+1. **_C++_**
+2. **_VS CODE_**
 
 ## Why C++?
 
@@ -25,13 +25,13 @@ Overall, C++ is a versatile and powerful language that is well-suited for a wide
 
 ## Some Topics Covered
 
-1. STL.
-2. Patterns.
-3. File Handling.
-4. Exception Handling.
-5. OOPs Concept.
-6. Data Structures.
-7. In-built functions.
+1. **_STL._**
+2. **_Patterns._**
+3. **_File Handling._**
+4. **_Exception Handling._**
+5. **_OOPs Concept._**
+6. **_Data Structures._**
+7. **_In-built functions._**
 
 ## Challenges and Limitations
 
