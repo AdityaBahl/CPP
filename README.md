@@ -23,13 +23,14 @@
 
 Overall, C++ is a versatile and powerful language that is well-suited for a wide range of tasks and can be used for both low-level systems programming and high-level application development.
 
-## Algorithm
+## Some Topics Covered
 
-1. The game generates a grid of letters and displays it to the player.
-2. The player selects a sequence of letters in the grid to form a word.
-3. The game sends a request to a dictionary API to check if the word is a valid English word.
-4. If the word is valid, the game updates the score and displays a new grid of letters to the player.
-5. If the word is not valid, the game informs the player and allows them to try again.
+1. STL.
+2. Patterns.
+3. File Handling.
+4. Exception Handling.
+5. OOPs Concept.
+6. Data Structures.
 
 This is just one possible approach to building a Wordle-like game. There are many other ways to design and implement such a game, and the specific algorithms and techniques used will depend on the desired features and functionality of the game.
 
