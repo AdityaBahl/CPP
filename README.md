@@ -1,47 +1,27 @@
 # C++ Concepts and Notes
 
-![image](https://github.com/AdityaBahl/Wordle-Game/blob/main/sample.png)
-
 ## Technologies Used
 
-1. **HTML**
-2. **CSS**
-3. **Vanilla JavaScript**
-4. **Node.js**
-5. **[Word Dictionary API](https://rapidapi.com/twinword/api/word-dictionary/)**
-6. **[Random Words API](https://rapidapi.com/sheharyar566/api/random-words5/)**
+1. **C++**
+2. **VS CODE**
 
-## Getting Started
+## Why C++?
 
-To start this project please go to **RapidAPI** to sign up for the [APIs](https://bit.ly/rapidapi-hub).
+**C++** is a popular programming language because it offers a number of benefits and features that make it well-suited for a wide range of applications. Some of the reasons why C++ is widely used include:
 
-### `.env`
+Efficiency: C++ is a compiled language, which means that the code is translated into machine code before it is executed. This can result in faster execution times and improved performance.
 
-Now create a `.env` file in the root of your project with the following:
+Flexibility: C++ is a multi-paradigm language, which means that it supports both object-oriented and procedural programming. This allows developers to use the most appropriate programming style for the task at hand.
 
-```
-RAPID_API_KEY={your_rapid_api_key}
-```
+Low-level access: C++ provides direct access to memory and other low-level features, which makes it well-suited for systems programming and other tasks that require fine-grained control over system resources.
 
-To run this project please type the following commands:
+Cross-platform compatibility: C++ code can be compiled for a wide range of different platforms, including Windows, Mac, and Linux.
 
-### `npm i`
+Large community and library support: C++ has a large and active community of developers, which means that there is a wealth of resources and libraries available to help with common tasks.
 
-This will install all the necessary dependencies.
+Widely used in industry and academia: C++ is widely used in industry for developing operating systems, device drivers, embedded systems and various applications. It is also widely used in academia for teaching and research in fields like computer graphics, simulations, and game development.
 
-### `npm run start:backend`
-
-This will start the backend on [http://localhost:8000](http://localhost:8000).
-
-### `copy the path to your index.html file`
-
-Copy the path to this file and paste it in your browser to see the game and play.
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Why Wordle?
-
-**Wordle** is a web-based game that uses APIs (Application Programming Interfaces) and Node.js to provide users with a fun and interactive experience. APIs allow Wordle to access and retrieve data from external sources, such as a dictionary or thesaurus, and use that data to generate the words and challenges that players must solve. Node.js, a JavaScript runtime built on Chrome's V8 JavaScript engine, is used to execute the game's code and handle its server-side logic. By using APIs and Node.js, Wordle is able to provide a seamless and dynamic gaming experience for players.
+Overall, C++ is a versatile and powerful language that is well-suited for a wide range of tasks and can be used for both low-level systems programming and high-level application development.
 
 ## Algorithm
 
