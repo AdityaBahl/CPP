@@ -66,5 +66,17 @@ int main()
     h.insert(52);
     h.insert(54);
     h.print();
+    int arr[6] = {-1, 54, 53, 55, 52, 50};
+    int n = 5; // size of array
+    for (int i = n / 2; i > 0; i--)
+    {
+        heapify(arr, n, i);
+    }
+    cout << "printing array\n";
+    for (int i = 1; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
     return 0;
 }
