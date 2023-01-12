@@ -31,20 +31,25 @@ Overall, C++ is a versatile and powerful language that is well-suited for a wide
 4. Exception Handling.
 5. OOPs Concept.
 6. Data Structures.
-
-This is just one possible approach to building a Wordle-like game. There are many other ways to design and implement such a game, and the specific algorithms and techniques used will depend on the desired features and functionality of the game.
+7. In-built functions.
 
 ## Challenges and Limitations
 
-1. **Integrating with external APIs:** Depending on the APIs used, integrating with them can be a complex task. There may be issues with authentication, rate limiting, or handling unexpected responses.
+C++, like any programming language, has its own set of challenges and limitations. Some of the main challenges and limitations of C++ include:
 
-2. **Managing the game state:** As the game progresses, the state of the game will change (e.g., new grids of letters will be displayed, scores will be updated). Care must be taken to ensure that the game state is properly managed and persisted, especially if the game is being played by multiple users concurrently.
+Complexity: C++ is a complex language, with a large number of features and libraries. This can make it difficult for new developers to learn, and it can also make it easy to introduce bugs or errors into code.
 
-3. **Ensuring performance:** A slow or unresponsive game can be frustrating for players. Careful optimization of the code and use of appropriate caching techniques can help ensure good performance.
+Memory management: C++ allows direct manipulation of memory, which can be both a strength and a weakness. While this allows for fine-grained control over system resources, it also means that developers are responsible for managing memory manually, which can lead to problems such as memory leaks and buffer overflows.
 
-4. **Testing and debugging:** As with any software project, testing and debugging are important tasks that must be undertaken to ensure that the game is functioning correctly. This can be especially challenging in a web-based game that involves interactions with external APIs.
+Compatibility issues: C++ is an evolving language, and new features and libraries are constantly being added. This can make it difficult to ensure that code remains compatible across different versions of the language.
 
-5. **Maintaining security:** It is important to ensure that the game is secure and that user data is protected. This may involve implementing measures such as input validation and sanitization, as well as properly handling sensitive information such as passwords and API Keys.
+Lack of built-in support for concurrency: C++ does not have built-in support for concurrency, which makes it more difficult to write efficient multithreaded code.
+
+Lack of built-in support for garbage collection: C++ does not have built-in support for automatic memory management, which can lead to memory leaks and other memory management issues.
+
+Lack of security features: C++ does not have built-in security features, which makes it more prone to security vulnerabilities like buffer overflows and other memory-related attacks.
+
+Overall, C++ is a powerful language but it requires a high level of expertise and experience to use it effectively. The lack of built-in security features and memory management make it more prone to errors, and compatibility issues can make it difficult to maintain code over time.
 
 ## Conclusion
 
