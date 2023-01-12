@@ -18,12 +18,19 @@ Notes:
     Right child node = parent node * 2 + 1                                  -------(2)
 2. To find parent nodes of child nodes, reverse the above formulas.
     Parent Node = Left child node/2                                         -------(3)
-    Parent Node = (Right child node - 1 )/2                                 -------(4)
+    Parent Node = (Right child node - 1 )/2  = Right child node / 2                              -------(4)
 
 Q. Algorithm for insertion in a heap?
 Ans. Its as follows:
     1.Insert at the end of the heap
     2.Take it to its correct position
       a. See whether the parent node is greater than the current node in a loop by formula (3 or 4)
-    3.
+    3.See program heapInsert.cpp in this directory for implementation
+
+Q. Algorithm for deletion of root node in a heap?
+Ans. Its as follows:
+    1. swap it with last node or just do a[1]=a[n]
+    2. remove last node
+    3. propogate root node to its correct position
+    4.
 */
