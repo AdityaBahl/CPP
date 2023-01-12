@@ -12,4 +12,7 @@ Ans. Heapify is the process of creating a heap data structure from a
     binary tree represented using an array. It is used to create Min-Heap
     or Max-heap. Start from the first index of the non-leaf node whose
     index is given by n/2 – 1.
+
+Q. Process of Heapify-ing?
+Ans.
 */
