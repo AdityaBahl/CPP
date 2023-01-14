@@ -28,7 +28,7 @@ additional memory space to work
 
 Q. Algorithm of Heap Sort?
 Ans. Steps are:
-1. swap(a[i],a[n]) where a[i]=root and a[n]=last node
-2. bring root node to correct position
-3.
+1. swap(a[i],a[n]) where a[i]=root and a[n]=last node and size--
+2. bring root node to correct position(using heapify)
+3. do above in a loop till heapSize>1
 */
