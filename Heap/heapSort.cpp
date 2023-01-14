@@ -1,4 +1,6 @@
 /*
+Refer to - https://www.geeksforgeeks.org/heap-sort/
+           https://www.youtube.com/watch?v=NKJnHewiGdc
 Q. What is Heap Sort?
 Ans. Heap sort is an in-place algorithm.Its typical implementation is
 not stable, but can be made stable. Typically 2-3 times slower than
@@ -17,4 +19,16 @@ additional memory space to work
 3. Simplicity –  It is simpler to understand than other equally efficient
  sorting algorithms because it does not use advanced computer science
  concepts such as recursion
+
+ Q. Applications of Heap Sort?
+ Ans.
+1. Heapsort is mainly used in hybrid algorithms like the IntroSort.
+2. Sort a nearly sorted (or K sorted) array.
+3. k largest(or smallest) elements in an array.
+
+Q. Algorithm of Heap Sort?
+Ans. Steps are:
+1. swap(a[i],a[n]) where a[i]=root and a[n]=last node
+2. bring root node to correct position
+3.
 */
