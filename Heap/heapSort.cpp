@@ -7,6 +7,9 @@ not stable, but can be made stable. Typically 2-3 times slower than
 well-implemented QuickSort.  The reason for slowness is a lack of
 locality of reference.
 
+Q. Time complexity of Heap Sort?
+Ans. O(nlogn)
+
 Q. Advantages of Heap Sort?
 Ans.
 1. Efficiency –  The time required to perform Heap sort increases
